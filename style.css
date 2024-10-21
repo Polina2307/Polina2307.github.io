@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff; /* Светло-голубой фон */
+}
+
+header {
+    background-color: #ffebcd; /* Бежевый фон */
+    color: #333; /* Темный текст */
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img {
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #ffebcd; /* Бежевый фон подвала */
+    color: #333; /* Темный текст */
+}
+
+footer .social-media a {
+    font-size: 1.5em;
+}
+
+.list-group-item {
+    transition: background-color 0.3s;
+    background-color: #fffaf0; /* Светло-абрикосовый фон для элементов списка */
+}
+
+.list-group-item:hover {
+    background-color: #ffe4e1; /* Светло-розовый фон при наведении */
+}
+
+/* Добавление стилей для кнопки отправки */
+.btn-primary {
+    background-color: #ffa07a; /* Светло-коралловый */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff7f50; /* Оранжево-коралловый при наведении */
+}
+
+/* Стиль для секций */
+section {
+    padding: 40px 0;
+    background-color: #fff; /* Белый фон для секций */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #f5f5dc; /* Бежевый фон для карточек */
+}
+
+.progress-bar {
+    background-color: #ffa07a; /* Светло-коралловый для прогресс-баров */
+}
